@@ -1,20 +1,24 @@
 footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+  /*padding: 2rem;*/
+  background-color: #01153A;
+  font-size: var(--body-font-size-s);
 }
 
-footer .footer > div {
+footer .footer {
+  /*max-width: 1200px;*/
   margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
 }
 
 footer .footer p {
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
+footer .footer .section > div {
+  width:100%;
+}
+
+footer .footer img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
