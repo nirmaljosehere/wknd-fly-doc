@@ -1,9 +1,9 @@
 # Your Project's Title...
-Your project's description...
+WKND Fly document based authoring website
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.hlx.page/
-- Live: https://main--{repo}--{owner}.hlx.live/
+- Preview: [https://main--wknd-fly-doc--nirmaljosehere.hlx.page/](https://main--wknd-fly-doc--nirmaljosehere.hlx.page/)
+- Live: [https://main--wknd-fly-doc--nirmaljosehere.hlx.page/](https://main--wknd-fly-doc--nirmaljosehere.hlx.page/)
 
 ## Installation
 
