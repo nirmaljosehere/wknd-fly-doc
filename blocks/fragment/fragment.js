@@ -4,14 +4,6 @@
  * https://www.aem.live/developer/block-collection/fragment
  */
 
-import {
-  decorateMain,
-} from '../../scripts/scripts.js';
-
-import {
-  loadBlocks,
-} from '../../scripts/aem.js';
-
 /**
  * Loads a fragment.
  * @param {string} path The path to the fragment
@@ -33,8 +25,8 @@ export async function loadFragment(path) {
       resetAttributeBase('img', 'src');
       resetAttributeBase('source', 'srcset');
 
-      decorateMain(main);
-      await loadBlocks(main);
+      // decorateMain(main);
+      // await loadBlock(main);
       return main;
     }
   }

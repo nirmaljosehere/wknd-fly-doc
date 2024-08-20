@@ -457,7 +457,9 @@ function decorateSections(main) {
     wrappers.forEach((wrapper) => section.append(wrapper));
     section.classList.add('section');
     section.dataset.sectionStatus = 'initialized';
+    console.log(section);
     section.style.display = 'none';
+    console.log(section);
 
     // Process section metadata
     const sectionMeta = section.querySelector('div.section-metadata');
